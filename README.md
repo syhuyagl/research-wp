@@ -150,7 +150,7 @@ Return _string_
 **Usage**
 - Đượng sử dụng để lấy title của một bài post đã biết ID.
 ex: 
-``` 
+``` php
 <?php echo get_the_title(15);?> 
 ```
 ## get_stylesheet_directory_uri() & get_stylesheet_directory()
@@ -159,7 +159,7 @@ ex:
 Return 
     _string_ URI to active theme's stylesheet directory.
 ex:
-```
+```php
 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/aternus.png" alt="" width="" height="" />
 
 ```
@@ -168,6 +168,6 @@ ex:
 Return 
     _string_ Path to active theme's stylesheet directory.
 ex:
-```
+```php
 <?php include( get_stylesheet_directory() . '/includes/myfile.php' ); ?>
 ```
