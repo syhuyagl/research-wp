@@ -155,18 +155,18 @@ ex:
 ```
 ## get_stylesheet_directory_uri() & get_stylesheet_directory()
 - [**get_stylesheet_directory_uri()**](https://developer.wordpress.org/reference/functions/get_stylesheet_directory_uri/)
-- Được dùng để truy xuất stylesheet directory **URI** cho theme đang hoạt động
-Return 
-    _string_ URI to active theme's stylesheet directory.
+- Được dùng để truy xuất stylesheet directory **URI** cho theme đang hoạt động\
+Return \
+    _string_ URI to active theme's stylesheet directory.\
 ex:
 ```php
 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/aternus.png" alt="" width="" height="" />
 
 ```
 - [**get_stylesheet_directory()**](https://developer.wordpress.org/reference/functions/get_stylesheet_directory/)
-- Được dùng để truy xuất stylesheet directory **path** cho theme đang hoạt động
-Return 
-    _string_ Path to active theme's stylesheet directory.
+- Được dùng để truy xuất stylesheet directory **path** cho theme đang hoạt động\
+Return\
+    _string_ Path to active theme's stylesheet directory.\
 ex:
 ```php
 <?php include( get_stylesheet_directory() . '/includes/myfile.php' ); ?>
