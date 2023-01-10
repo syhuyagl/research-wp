@@ -120,7 +120,7 @@ endif;
 <!-- wp:search {"label":"Search","buttonText":"Search"} /-->
 ```
 ## the_title() & get_the_title()
-- [**the_title()**](https://developer.wordpress.org/reference/functions/the_title/)
+- [**the_title()**](https://developer.wordpress.org/reference/functions/the_title/)\
 ```the_title( string $before = '', string $after = '', bool $echo = true ): void|string```
 - Parameters
 _$before_ : string Optional
@@ -138,7 +138,7 @@ Default: true
 Do đó, the_title được cho là được viết bên trong vòng lặp.
 
 
-- [**get_the_title()**](https://developer.wordpress.org/reference/functions/the_title/)
+- [**get_the_title()**](https://developer.wordpress.org/reference/functions/the_title/)\
 ```get_the_title( int|WP_Post $post ): string```
 - Parameters
 _$post_ : int|WP_Post Optional
